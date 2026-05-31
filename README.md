@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+Weather Forecast App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive Weather Forecast Application built with React.js that allows users to search for any city and view real-time weather information. The application fetches live weather data using the WeatherAPI service and displays it through a clean and user-friendly interface with a modern glassmorphism-inspired design.
 
-## Available Scripts
+Features
+Search weather by city name
+Display current temperature in Celsius
+Show weather condition and weather icon
+View humidity percentage
+Display wind speed
+Show "Feels Like" temperature
+Fully responsive design
+Modern glassmorphism UI with gradient background
+Real-time weather data using WeatherAPI
+Tech Stack
+React.js
+JavaScript (ES6+)
+CSS3
+WeatherAPI
+React Hooks (useState)
+React Icons
+Project Structure
+src/
+├── App.js
+├── App.css
+└── index.js
+Getting Started
+Clone the Repository
+git clone <repository-url>
+Navigate to the Project Directory
+cd weather-app
+Install Dependencies
+npm install
+Start the Development Server
+npm start
 
-In the project directory, you can run:
+The application will run at:
 
-### `npm start`
+http://localhost:3000
+API Configuration
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project uses WeatherAPI to fetch weather data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Get your API key from:
 
-### `npm test`
+https://www.weatherapi.com/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Replace the API key in App.js if needed:
 
-### `npm run build`
+https://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=${cityname}
+Application Highlights
+Real-time weather information
+City-based weather search
+Responsive layout for desktop and mobile devices
+Modern glassmorphism-inspired user interface
+Clean and intuitive user experience
+Future Enhancements
+Multi-day weather forecast
+Search history
+Dark and light mode support
+Current location weather detection
+Loading states and animations
+Better error handling
+Additional weather metrics
+Author
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Rishi Singh
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was built to practice React fundamentals, API integration, state management using React Hooks, and modern frontend UI design.
